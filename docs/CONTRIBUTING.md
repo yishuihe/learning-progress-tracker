@@ -108,6 +108,7 @@ pip install -r requirements.txt
 2. Start with documentation improvements
 3. Add simple utility functions
 4. Write unit tests for existing code
+5. Start with validation
 
 **For Intermediate:**
 1. Look for issues labeled `enhancement` or `feature`
