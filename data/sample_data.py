@@ -47,7 +47,7 @@ goals_data = [
         "target_date": "2024-12-31"
     },
     {
-        "title": "Build First Web App",
+        "title": "Build Your First Web App",
         "description": "Create a complete web application using Flask",
         "target_date": "2024-11-30"
     },
