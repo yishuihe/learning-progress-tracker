@@ -33,7 +33,7 @@ class DatabaseManager:
         with self.get_connection() as conn:
             cursor = conn.cursor()
             
-            # Users table
+            # Users table creation
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS users (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -44,7 +44,7 @@ class DatabaseManager:
                 )
             ''')
             
-            # Courses table
+            # Courses table creation
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS courses (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -57,7 +57,7 @@ class DatabaseManager:
                 )
             ''')
             
-            # Study sessions table
+            # Study sessions table creation
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS study_sessions (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -70,7 +70,7 @@ class DatabaseManager:
                 )
             ''')
             
-            # Learning goals table
+            # Learning goals table creation
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS learning_goals (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
