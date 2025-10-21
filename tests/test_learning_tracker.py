@@ -34,7 +34,7 @@ class TestModels(unittest.TestCase):
     def test_study_session_duration(self):
         """Test StudySession duration calculation"""
         start_time = datetime(2024, 1, 1, 10, 0, 0)
-        end_time = datetime(2024, 1, 1, 11, 30, 0)
+        end_time = datetime(2024, 1, 1, 12, 30, 0)
         
         session = StudySession(
             course_id=1,
